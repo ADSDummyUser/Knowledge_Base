@@ -34,7 +34,6 @@ FunctionalObjectProperty(:Friends)
 InverseFunctionalObjectProperty(:Friends)
 SymmetricObjectProperty(:Friends)
 AsymmetricObjectProperty(:Friends)
-TransitiveObjectProperty(:Friends)
 ReflexiveObjectProperty(:Friends)
 IrreflexiveObjectProperty(:Friends)
 
