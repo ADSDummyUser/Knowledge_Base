@@ -76,6 +76,7 @@ SubClassOf(:I :G)
 # Class: :W (:W)
 
 SubClassOf(:W :C)
+SubClassOf(:W :D)
 
 
 ############################
