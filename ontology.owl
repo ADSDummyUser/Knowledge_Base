@@ -24,6 +24,20 @@ Declaration(NamedIndividual(:classb))
 Declaration(NamedIndividual(:nsgaii))
 Declaration(NamedIndividual(:nsgaiii))
 Declaration(NamedIndividual(:smsemoa))
+############################
+#   Object Properties
+############################
+
+# Object Property: :Friends (:Friends)
+
+FunctionalObjectProperty(:Friends)
+InverseFunctionalObjectProperty(:Friends)
+SymmetricObjectProperty(:Friends)
+AsymmetricObjectProperty(:Friends)
+TransitiveObjectProperty(:Friends)
+ReflexiveObjectProperty(:Friends)
+IrreflexiveObjectProperty(:Friends)
+
 
 
 
