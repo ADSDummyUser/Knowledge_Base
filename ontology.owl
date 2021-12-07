@@ -11,6 +11,7 @@ Ontology(<http://www.semanticweb.org/vbasto/ontologies/2020/9/untitled-ontology-
 Declaration(Class(:Algorithm))
 Declaration(Class(:B))
 Declaration(Class(:C))
+Declaration(Class(:CARNEEE))
 Declaration(Class(:D))
 Declaration(Class(:E))
 Declaration(Class(:F))
@@ -51,6 +52,10 @@ SubClassOf(:B :Algorithm)
 # Class: :C (:C)
 
 SubClassOf(:C :Algorithm)
+
+# Class: :CARNEEE (:CARNEEE)
+
+SubClassOf(:CARNEEE :C)
 
 # Class: :D (:D)
 
