@@ -18,6 +18,7 @@ Declaration(Class(:F))
 Declaration(Class(:G))
 Declaration(Class(:H))
 Declaration(Class(:I))
+Declaration(Class(:Indiano))
 Declaration(ObjectProperty(:Friends))
 Declaration(DataProperty(:maxObjectivesAlgorithmIsAbleToDealWith))
 Declaration(DataProperty(:minObjectivesAlgorithmIsAbleToDealWith))
@@ -76,6 +77,10 @@ SubClassOf(:H :G)
 # Class: :I (:I)
 
 SubClassOf(:I :G)
+
+# Class: :Indiano (:Indiano)
+
+SubClassOf(:Indiano :I)
 
 
 ############################
