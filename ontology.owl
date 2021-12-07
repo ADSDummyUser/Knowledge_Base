@@ -25,6 +25,7 @@ Declaration(NamedIndividual(:classb))
 Declaration(NamedIndividual(:nsgaii))
 Declaration(NamedIndividual(:nsgaiii))
 Declaration(NamedIndividual(:smsemoa))
+Declaration(NamedIndividual(:zappa))
 ############################
 #   Object Properties
 ############################
@@ -108,6 +109,10 @@ ClassAssertion(:Algorithm :smsemoa)
 ObjectPropertyAssertion(:Friends :smsemoa :nsgaiii)
 DataPropertyAssertion(:maxObjectivesAlgorithmIsAbleToDealWith :smsemoa "3"^^xsd:integer)
 DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :smsemoa "2"^^xsd:integer)
+
+# Individual: :zappa (:zappa)
+
+ClassAssertion(:Z :zappa)
 
 
 )
