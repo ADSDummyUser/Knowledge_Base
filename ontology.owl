@@ -26,6 +26,7 @@ Declaration(NamedIndividual(:classb))
 Declaration(NamedIndividual(:nsgaii))
 Declaration(NamedIndividual(:nsgaiii))
 Declaration(NamedIndividual(:smsemoa))
+Declaration(NamedIndividual(<http://www.semanticweb.org/vbasto/ontologies/2020/9/untitled-ontology-74#it is what it is>))
 ############################
 #   Object Properties
 ############################
