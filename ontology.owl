@@ -66,6 +66,7 @@ SubClassOf(:F :E)
 
 # Class: :H (:H)
 
+SubClassOf(:H :C)
 SubClassOf(:H :G)
 
 # Class: :I (:I)
