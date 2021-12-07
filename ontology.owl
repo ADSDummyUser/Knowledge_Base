@@ -22,6 +22,7 @@ Declaration(ObjectProperty(:Friends))
 Declaration(DataProperty(:maxObjectivesAlgorithmIsAbleToDealWith))
 Declaration(DataProperty(:minObjectivesAlgorithmIsAbleToDealWith))
 Declaration(NamedIndividual(:classb))
+Declaration(NamedIndividual(:foneca))
 Declaration(NamedIndividual(:nsgaii))
 Declaration(NamedIndividual(:nsgaiii))
 Declaration(NamedIndividual(:smsemoa))
@@ -85,6 +86,10 @@ SubClassOf(:Z :H)
 ClassAssertion(:B :classb)
 DataPropertyAssertion(:maxObjectivesAlgorithmIsAbleToDealWith :classb "5"^^xsd:integer)
 DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :classb "1"^^xsd:integer)
+
+# Individual: :foneca (:foneca)
+
+ClassAssertion(:F :foneca)
 
 # Individual: :nsgaii (:nsgaii)
 
