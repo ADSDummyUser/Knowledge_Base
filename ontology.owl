@@ -14,8 +14,6 @@ Declaration(Class(:C))
 Declaration(Class(:D))
 Declaration(Class(:E))
 Declaration(Class(:F))
-Declaration(Class(:G))
-Declaration(Class(:I))
 Declaration(ObjectProperty(:Friends))
 Declaration(DataProperty(:maxObjectivesAlgorithmIsAbleToDealWith))
 Declaration(DataProperty(:minObjectivesAlgorithmIsAbleToDealWith))
@@ -59,10 +57,6 @@ SubClassOf(:D :Algorithm)
 # Class: :E (:E)
 
 SubClassOf(:E :B)
-
-# Class: :I (:I)
-
-SubClassOf(:I :G)
 
 
 ############################
