@@ -25,6 +25,7 @@ Declaration(NamedIndividual(:foneca))
 Declaration(NamedIndividual(:nsgaii))
 Declaration(NamedIndividual(:nsgaiii))
 Declaration(NamedIndividual(:smsemoa))
+
 ############################
 #   Object Properties
 ############################
@@ -37,9 +38,6 @@ SymmetricObjectProperty(:Friends)
 AsymmetricObjectProperty(:Friends)
 ReflexiveObjectProperty(:Friends)
 IrreflexiveObjectProperty(:Friends)
-
-
-
 
 ############################
 #   Classes
@@ -69,7 +67,6 @@ SubClassOf(:H :G)
 # Class: :Z (:Z)
 
 SubClassOf(:Z :H)
-
 
 ############################
 #   Named Individuals
@@ -104,6 +101,5 @@ ClassAssertion(:Algorithm :smsemoa)
 ObjectPropertyAssertion(:Friends :smsemoa :nsgaiii)
 DataPropertyAssertion(:maxObjectivesAlgorithmIsAbleToDealWith :smsemoa "3"^^xsd:integer)
 DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :smsemoa "2"^^xsd:integer)
-
 
 )
