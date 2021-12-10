@@ -11,11 +11,18 @@ Ontology(<http://www.semanticweb.org/vbasto/ontologies/2020/9/untitled-ontology-
 Declaration(Class(:Algorithm))
 Declaration(Class(:B))
 Declaration(Class(:C))
+Declaration(Class(:D))
 Declaration(Class(:E))
+Declaration(Class(:F))
+Declaration(Class(:H))
+Declaration(Class(:W))
+Declaration(Class(:Y))
+Declaration(Class(:Z))
 Declaration(ObjectProperty(:Friends))
 Declaration(DataProperty(:maxObjectivesAlgorithmIsAbleToDealWith))
 Declaration(DataProperty(:minObjectivesAlgorithmIsAbleToDealWith))
 Declaration(NamedIndividual(:classb))
+Declaration(NamedIndividual(:foneca))
 Declaration(NamedIndividual(:nsgaii))
 Declaration(NamedIndividual(:nsgaiii))
 Declaration(NamedIndividual(:smsemoa))
@@ -47,9 +54,21 @@ SubClassOf(:B :Algorithm)
 
 SubClassOf(:C :Algorithm)
 
+# Class: :D (:D)
+
+SubClassOf(:D :Algorithm)
+
 # Class: :E (:E)
 
 SubClassOf(:E :B)
+
+# Class: :W (:W)
+
+SubClassOf(:W :Z)
+
+# Class: :Y (:Y)
+
+SubClassOf(:Y :Z)
 
 
 ############################
@@ -61,6 +80,10 @@ SubClassOf(:E :B)
 ClassAssertion(:B :classb)
 DataPropertyAssertion(:maxObjectivesAlgorithmIsAbleToDealWith :classb "5"^^xsd:integer)
 DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :classb "1"^^xsd:integer)
+
+# Individual: :foneca (:foneca)
+
+ClassAssertion(:F :foneca)
 
 # Individual: :nsgaii (:nsgaii)
 
