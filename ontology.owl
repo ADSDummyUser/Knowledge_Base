@@ -12,7 +12,6 @@ Declaration(Class(:Algorithm))
 Declaration(Class(:B))
 Declaration(Class(:C))
 Declaration(Class(:D))
-Declaration(Class(:E))
 Declaration(Class(:F))
 Declaration(Class(:H))
 Declaration(ObjectProperty(:Friends))
@@ -54,10 +53,6 @@ SubClassOf(:C :Algorithm)
 # Class: :D (:D)
 
 SubClassOf(:D :Algorithm)
-
-# Class: :E (:E)
-
-SubClassOf(:E :B)
 
 
 ############################
