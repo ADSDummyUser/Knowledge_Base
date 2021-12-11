@@ -13,7 +13,7 @@ Declaration(Class(:B))
 Declaration(Class(:C))
 Declaration(Class(:D))
 Declaration(Class(:E))
-Declaration(Class(:W))
+Declaration(Class(:H))
 Declaration(Class(:Z))
 Declaration(ObjectProperty(:Friends))
 Declaration(DataProperty(:maxObjectivesAlgorithmIsAbleToDealWith))
@@ -57,10 +57,6 @@ SubClassOf(:D :Algorithm)
 # Class: :E (:E)
 
 SubClassOf(:E :B)
-
-# Class: :W (:W)
-
-SubClassOf(:W :Z)
 
 
 ############################
