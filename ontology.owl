@@ -13,10 +13,16 @@ Declaration(Class(:B))
 Declaration(Class(:C))
 Declaration(Class(:D))
 Declaration(Class(:E))
+Declaration(Class(:F))
+Declaration(Class(:H))
+Declaration(Class(:W))
+Declaration(Class(:Y))
+Declaration(Class(:Z))
 Declaration(ObjectProperty(:Friends))
 Declaration(DataProperty(:maxObjectivesAlgorithmIsAbleToDealWith))
 Declaration(DataProperty(:minObjectivesAlgorithmIsAbleToDealWith))
 Declaration(NamedIndividual(:classb))
+Declaration(NamedIndividual(:foneca))
 Declaration(NamedIndividual(:nsgaii))
 Declaration(NamedIndividual(:nsgaiii))
 Declaration(NamedIndividual(:smsemoa))
@@ -56,6 +62,14 @@ SubClassOf(:D :Algorithm)
 
 SubClassOf(:E :B)
 
+# Class: :W (:W)
+
+SubClassOf(:W :Z)
+
+# Class: :Y (:Y)
+
+SubClassOf(:Y :Z)
+
 
 ############################
 #   Named Individuals
@@ -66,6 +80,10 @@ SubClassOf(:E :B)
 ClassAssertion(:B :classb)
 DataPropertyAssertion(:maxObjectivesAlgorithmIsAbleToDealWith :classb "5"^^xsd:integer)
 DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :classb "1"^^xsd:integer)
+
+# Individual: :foneca (:foneca)
+
+ClassAssertion(:F :foneca)
 
 # Individual: :nsgaii (:nsgaii)
 
@@ -89,4 +107,3 @@ DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :smsemoa "2"^^xsd:
 
 
 )
-
