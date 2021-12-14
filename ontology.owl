@@ -10,11 +10,6 @@ Ontology(<http://www.semanticweb.org/vbasto/ontologies/2020/9/untitled-ontology-
 
 Declaration(Class(:Algorithm))
 Declaration(Class(:B))
-<<<<<<< HEAD
-Declaration(Class(:C))
-=======
-Declaration(Class(:D))
->>>>>>> refs/heads/ssjgo@iscte-iul.pt_1
 Declaration(Class(:E))
 Declaration(Class(:F))
 Declaration(ObjectProperty(:Friends))
@@ -48,16 +43,6 @@ IrreflexiveObjectProperty(:Friends)
 # Class: :B (:B)
 
 SubClassOf(:B :Algorithm)
-
-<<<<<<< HEAD
-# Class: :C (:C)
-
-SubClassOf(:C :Algorithm)
-=======
-# Class: :D (:D)
-
-SubClassOf(:D :Algorithm)
->>>>>>> refs/heads/ssjgo@iscte-iul.pt_1
 
 # Class: :E (:E)
 
@@ -100,3 +85,4 @@ DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :smsemoa "2"^^xsd:
 
 
 )
+
