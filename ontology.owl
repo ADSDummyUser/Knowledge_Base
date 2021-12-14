@@ -9,12 +9,10 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Ontology(<http://www.semanticweb.org/vbasto/ontologies/2020/9/untitled-ontology-74>
 
 Declaration(Class(:Algorithm))
-Declaration(Class(:B))
 Declaration(Class(:C))
 Declaration(ObjectProperty(:Friends))
 Declaration(DataProperty(:maxObjectivesAlgorithmIsAbleToDealWith))
 Declaration(DataProperty(:minObjectivesAlgorithmIsAbleToDealWith))
-Declaration(NamedIndividual(:classb))
 Declaration(NamedIndividual(:nsgaii))
 Declaration(NamedIndividual(:nsgaiii))
 Declaration(NamedIndividual(:smsemoa))
@@ -38,10 +36,6 @@ IrreflexiveObjectProperty(:Friends)
 #   Classes
 ############################
 
-# Class: :B (:B)
-
-SubClassOf(:B :Algorithm)
-
 # Class: :C (:C)
 
 SubClassOf(:C :Algorithm)
@@ -50,12 +44,6 @@ SubClassOf(:C :Algorithm)
 ############################
 #   Named Individuals
 ############################
-
-# Individual: :classb (:classb)
-
-ClassAssertion(:B :classb)
-DataPropertyAssertion(:maxObjectivesAlgorithmIsAbleToDealWith :classb "5"^^xsd:integer)
-DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :classb "1"^^xsd:integer)
 
 # Individual: :nsgaii (:nsgaii)
 
