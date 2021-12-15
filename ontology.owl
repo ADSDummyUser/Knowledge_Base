@@ -14,7 +14,6 @@ Declaration(Class(:C))
 Declaration(Class(:D))
 Declaration(Class(:E))
 Declaration(Class(:F))
-Declaration(Class(:H))
 Declaration(Class(:Z))
 Declaration(ObjectProperty(:Friends))
 Declaration(DataProperty(:maxObjectivesAlgorithmIsAbleToDealWith))
@@ -97,4 +96,3 @@ DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :smsemoa "2"^^xsd:
 
 
 )
-
