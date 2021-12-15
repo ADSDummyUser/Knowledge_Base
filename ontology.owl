@@ -13,9 +13,13 @@ Declaration(Class(:B))
 Declaration(Class(:C))
 Declaration(Class(:D))
 Declaration(Class(:E))
+<<<<<<< HEAD
 Declaration(Class(:W))
 Declaration(Class(:Y))
 Declaration(Class(:Z))
+=======
+Declaration(Class(:F))
+>>>>>>> refs/heads/ssjgo@iscte-iul.pt_0
 Declaration(ObjectProperty(:Friends))
 Declaration(DataProperty(:maxObjectivesAlgorithmIsAbleToDealWith))
 Declaration(DataProperty(:minObjectivesAlgorithmIsAbleToDealWith))
@@ -58,14 +62,6 @@ SubClassOf(:D :Algorithm)
 # Class: :E (:E)
 
 SubClassOf(:E :B)
-
-# Class: :W (:W)
-
-SubClassOf(:W :Z)
-
-# Class: :Y (:Y)
-
-SubClassOf(:Y :Z)
 
 
 ############################
