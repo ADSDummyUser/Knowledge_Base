@@ -10,9 +10,6 @@ Ontology(<http://www.semanticweb.org/vbasto/ontologies/2020/9/untitled-ontology-
 
 Declaration(Class(:Algorithm))
 Declaration(Class(:D))
-Declaration(Class(:W))
-Declaration(Class(:Y))
-Declaration(Class(:Z))
 Declaration(ObjectProperty(:Friends))
 Declaration(DataProperty(:maxObjectivesAlgorithmIsAbleToDealWith))
 Declaration(DataProperty(:minObjectivesAlgorithmIsAbleToDealWith))
@@ -42,14 +39,6 @@ IrreflexiveObjectProperty(:Friends)
 # Class: :D (:D)
 
 SubClassOf(:D :Algorithm)
-
-# Class: :W (:W)
-
-SubClassOf(:W :Z)
-
-# Class: :Y (:Y)
-
-SubClassOf(:Y :Z)
 
 
 ############################
