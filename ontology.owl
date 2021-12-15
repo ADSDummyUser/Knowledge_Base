@@ -13,7 +13,11 @@ Declaration(Class(:B))
 Declaration(Class(:C))
 Declaration(Class(:D))
 Declaration(Class(:E))
+<<<<<<< HEAD
 Declaration(Class(:F))
+=======
+Declaration(Class(:H))
+>>>>>>> refs/heads/ssjgo@iscte-iul.pt_1
 Declaration(Class(:W))
 Declaration(Class(:Y))
 Declaration(Class(:Z))
@@ -21,7 +25,6 @@ Declaration(ObjectProperty(:Friends))
 Declaration(DataProperty(:maxObjectivesAlgorithmIsAbleToDealWith))
 Declaration(DataProperty(:minObjectivesAlgorithmIsAbleToDealWith))
 Declaration(NamedIndividual(:classb))
-Declaration(NamedIndividual(:foneca))
 Declaration(NamedIndividual(:nsgaii))
 Declaration(NamedIndividual(:nsgaiii))
 Declaration(NamedIndividual(:smsemoa))
@@ -79,10 +82,6 @@ SubClassOf(:Y :Z)
 ClassAssertion(:B :classb)
 DataPropertyAssertion(:maxObjectivesAlgorithmIsAbleToDealWith :classb "5"^^xsd:integer)
 DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :classb "1"^^xsd:integer)
-
-# Individual: :foneca (:foneca)
-
-ClassAssertion(:F :foneca)
 
 # Individual: :nsgaii (:nsgaii)
 
