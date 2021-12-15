@@ -13,11 +13,6 @@ Declaration(Class(:B))
 Declaration(Class(:C))
 Declaration(Class(:D))
 Declaration(Class(:E))
-<<<<<<< HEAD
-Declaration(Class(:F))
-=======
-Declaration(Class(:H))
->>>>>>> refs/heads/ssjgo@iscte-iul.pt_1
 Declaration(Class(:W))
 Declaration(Class(:Y))
 Declaration(Class(:Z))
@@ -105,3 +100,4 @@ DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :smsemoa "2"^^xsd:
 
 
 )
+
