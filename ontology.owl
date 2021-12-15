@@ -14,7 +14,6 @@ Declaration(Class(:C))
 Declaration(Class(:D))
 Declaration(Class(:E))
 Declaration(Class(:F))
-Declaration(Class(:H))
 Declaration(Class(:W))
 Declaration(Class(:Y))
 Declaration(Class(:Z))
@@ -102,4 +101,3 @@ DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :smsemoa "2"^^xsd:
 
 
 )
-
