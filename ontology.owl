@@ -10,14 +10,12 @@ Ontology(<http://www.semanticweb.org/vbasto/ontologies/2020/9/untitled-ontology-
 
 Declaration(Class(:Algorithm))
 Declaration(Class(:D))
-Declaration(Class(:F))
 Declaration(Class(:W))
 Declaration(Class(:Y))
 Declaration(Class(:Z))
 Declaration(ObjectProperty(:Friends))
 Declaration(DataProperty(:maxObjectivesAlgorithmIsAbleToDealWith))
 Declaration(DataProperty(:minObjectivesAlgorithmIsAbleToDealWith))
-Declaration(NamedIndividual(:foneca))
 Declaration(NamedIndividual(:nsgaii))
 Declaration(NamedIndividual(:nsgaiii))
 Declaration(NamedIndividual(:smsemoa))
@@ -57,10 +55,6 @@ SubClassOf(:Y :Z)
 ############################
 #   Named Individuals
 ############################
-
-# Individual: :foneca (:foneca)
-
-ClassAssertion(:F :foneca)
 
 # Individual: :nsgaii (:nsgaii)
 
