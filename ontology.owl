@@ -13,7 +13,11 @@ Declaration(Class(:B))
 Declaration(Class(:C))
 Declaration(Class(:D))
 Declaration(Class(:E))
+<<<<<<< HEAD
 Declaration(Class(:H))
+=======
+Declaration(Class(:F))
+>>>>>>> refs/heads/ssjgo@iscte-iul.pt_1
 Declaration(Class(:W))
 Declaration(Class(:Y))
 Declaration(Class(:Z))
