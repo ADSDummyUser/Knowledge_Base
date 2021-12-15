@@ -12,11 +12,6 @@ Declaration(Class(:Algorithm))
 Declaration(Class(:B))
 Declaration(Class(:C))
 Declaration(Class(:E))
-<<<<<<< HEAD
-=======
-Declaration(Class(:F))
-Declaration(Class(:Z))
->>>>>>> refs/heads/ssjgo@iscte-iul.pt_4
 Declaration(ObjectProperty(:Friends))
 Declaration(DataProperty(:maxObjectivesAlgorithmIsAbleToDealWith))
 Declaration(DataProperty(:minObjectivesAlgorithmIsAbleToDealWith))
@@ -89,3 +84,4 @@ DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :smsemoa "2"^^xsd:
 
 
 )
+
