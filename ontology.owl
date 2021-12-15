@@ -8,11 +8,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<http://www.semanticweb.org/vbasto/ontologies/2020/9/untitled-ontology-74>
 
-<<<<<<< HEAD
 Declaration(Class(:Algorithm))
 Declaration(Class(:D))
-=======
->>>>>>> refs/heads/ssjgo@iscte-iul.pt_1
 Declaration(Class(:F))
 Declaration(Class(:W))
 Declaration(Class(:Y))
@@ -21,6 +18,9 @@ Declaration(ObjectProperty(:Friends))
 Declaration(DataProperty(:maxObjectivesAlgorithmIsAbleToDealWith))
 Declaration(DataProperty(:minObjectivesAlgorithmIsAbleToDealWith))
 Declaration(NamedIndividual(:foneca))
+Declaration(NamedIndividual(:nsgaii))
+Declaration(NamedIndividual(:nsgaiii))
+Declaration(NamedIndividual(:smsemoa))
 ############################
 #   Object Properties
 ############################
@@ -36,16 +36,14 @@ IrreflexiveObjectProperty(:Friends)
 
 
 
+
 ############################
 #   Classes
 ############################
-<<<<<<< HEAD
 
 # Class: :D (:D)
 
 SubClassOf(:D :Algorithm)
-=======
->>>>>>> refs/heads/ssjgo@iscte-iul.pt_1
 
 # Class: :W (:W)
 
@@ -63,6 +61,26 @@ SubClassOf(:Y :Z)
 # Individual: :foneca (:foneca)
 
 ClassAssertion(:F :foneca)
+
+# Individual: :nsgaii (:nsgaii)
+
+ClassAssertion(:Algorithm :nsgaii)
+ObjectPropertyAssertion(:Friends :nsgaii :nsgaiii)
+DataPropertyAssertion(:maxObjectivesAlgorithmIsAbleToDealWith :nsgaii "3"^^xsd:integer)
+DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :nsgaii "2"^^xsd:integer)
+
+# Individual: :nsgaiii (:nsgaiii)
+
+ClassAssertion(:Algorithm :nsgaiii)
+DataPropertyAssertion(:maxObjectivesAlgorithmIsAbleToDealWith :nsgaiii "10000"^^xsd:integer)
+DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :nsgaiii "3"^^xsd:integer)
+
+# Individual: :smsemoa (:smsemoa)
+
+ClassAssertion(:Algorithm :smsemoa)
+ObjectPropertyAssertion(:Friends :smsemoa :nsgaiii)
+DataPropertyAssertion(:maxObjectivesAlgorithmIsAbleToDealWith :smsemoa "3"^^xsd:integer)
+DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :smsemoa "2"^^xsd:integer)
 
 
 )
