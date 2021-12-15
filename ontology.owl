@@ -14,7 +14,11 @@ Declaration(Class(:C))
 Declaration(Class(:D))
 Declaration(Class(:E))
 Declaration(Class(:F))
+<<<<<<< HEAD
 Declaration(Class(:H))
+=======
+Declaration(Class(:W))
+>>>>>>> refs/heads/ssjgo@iscte-iul.pt_2
 Declaration(Class(:Z))
 Declaration(ObjectProperty(:Friends))
 Declaration(DataProperty(:maxObjectivesAlgorithmIsAbleToDealWith))
