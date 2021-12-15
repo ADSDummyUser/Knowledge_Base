@@ -9,10 +9,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Ontology(<http://www.semanticweb.org/vbasto/ontologies/2020/9/untitled-ontology-74>
 
 Declaration(Class(:Algorithm))
-Declaration(Class(:B))
 Declaration(Class(:C))
 Declaration(Class(:D))
-Declaration(Class(:E))
 Declaration(Class(:F))
 Declaration(Class(:W))
 Declaration(Class(:Y))
@@ -20,7 +18,6 @@ Declaration(Class(:Z))
 Declaration(ObjectProperty(:Friends))
 Declaration(DataProperty(:maxObjectivesAlgorithmIsAbleToDealWith))
 Declaration(DataProperty(:minObjectivesAlgorithmIsAbleToDealWith))
-Declaration(NamedIndividual(:classb))
 Declaration(NamedIndividual(:foneca))
 Declaration(NamedIndividual(:nsgaii))
 Declaration(NamedIndividual(:nsgaiii))
@@ -45,10 +42,6 @@ IrreflexiveObjectProperty(:Friends)
 #   Classes
 ############################
 
-# Class: :B (:B)
-
-SubClassOf(:B :Algorithm)
-
 # Class: :C (:C)
 
 SubClassOf(:C :Algorithm)
@@ -56,10 +49,6 @@ SubClassOf(:C :Algorithm)
 # Class: :D (:D)
 
 SubClassOf(:D :Algorithm)
-
-# Class: :E (:E)
-
-SubClassOf(:E :B)
 
 # Class: :W (:W)
 
@@ -73,12 +62,6 @@ SubClassOf(:Y :Z)
 ############################
 #   Named Individuals
 ############################
-
-# Individual: :classb (:classb)
-
-ClassAssertion(:B :classb)
-DataPropertyAssertion(:maxObjectivesAlgorithmIsAbleToDealWith :classb "5"^^xsd:integer)
-DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :classb "1"^^xsd:integer)
 
 # Individual: :foneca (:foneca)
 
