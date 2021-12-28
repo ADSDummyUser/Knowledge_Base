@@ -10,7 +10,6 @@ Ontology(<http://www.semanticweb.org/vbasto/ontologies/2020/9/untitled-ontology-
 
 Declaration(Class(:Algorithm))
 Declaration(Class(:H))
-Declaration(Class(:Y))
 Declaration(DataProperty(:maxObjectivesAlgorithmIsAbleToDealWith))
 Declaration(DataProperty(:minObjectivesAlgorithmIsAbleToDealWith))
 Declaration(NamedIndividual(:nsgaii))
@@ -25,10 +24,6 @@ Declaration(NamedIndividual(:smsemoa))
 # Class: :H (:H)
 
 SubClassOf(:H :Algorithm)
-
-# Class: :Y (:Y)
-
-SubClassOf(:Y :Algorithm)
 
 
 ############################
@@ -55,4 +50,3 @@ DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :smsemoa "2"^^xsd:
 
 
 )
-
