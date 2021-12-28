@@ -9,7 +9,6 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 Ontology(<http://www.semanticweb.org/vbasto/ontologies/2020/9/untitled-ontology-74>
 
 Declaration(Class(:Algorithm))
-Declaration(Class(:Z))
 Declaration(DataProperty(:maxObjectivesAlgorithmIsAbleToDealWith))
 Declaration(DataProperty(:minObjectivesAlgorithmIsAbleToDealWith))
 Declaration(NamedIndividual(:nsgaii))
@@ -20,10 +19,6 @@ Declaration(NamedIndividual(:smsemoa))
 ############################
 #   Classes
 ############################
-
-# Class: :Z (:Z)
-
-SubClassOf(:Z :Algorithm)
 
 
 ############################
@@ -50,3 +45,4 @@ DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :smsemoa "2"^^xsd:
 
 
 )
+
