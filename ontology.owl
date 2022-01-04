@@ -16,10 +16,6 @@ Declaration(NamedIndividual(:nsgaiii))
 Declaration(NamedIndividual(:smsemoa))
 
 
-############################
-#   Classes
-############################
-
 
 ############################
 #   Named Individuals
@@ -45,4 +41,3 @@ DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :smsemoa "2"^^xsd:
 
 
 )
-
