@@ -10,6 +10,7 @@ Ontology(<http://www.semanticweb.org/vbasto/ontologies/2020/9/untitled-ontology-
 
 Declaration(Class(:Algorithm))
 Declaration(Class(:another))
+Declaration(Class(:badabim))
 Declaration(Class(:subclass))
 Declaration(DataProperty(:maxObjectivesAlgorithmIsAbleToDealWith))
 Declaration(DataProperty(:minObjectivesAlgorithmIsAbleToDealWith))
@@ -55,3 +56,4 @@ DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :smsemoa "2"^^xsd:
 
 
 )
+
