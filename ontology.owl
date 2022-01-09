@@ -13,11 +13,22 @@ Declaration(Class(:another))
 Declaration(Class(:badabim))
 Declaration(Class(:subclass))
 Declaration(Class(:subsubclass))
+Declaration(ObjectProperty(:beingGEH))
 Declaration(DataProperty(:maxObjectivesAlgorithmIsAbleToDealWith))
 Declaration(DataProperty(:minObjectivesAlgorithmIsAbleToDealWith))
 Declaration(NamedIndividual(:nsgaii))
 Declaration(NamedIndividual(:nsgaiii))
 Declaration(NamedIndividual(:smsemoa))
+############################
+#   Object Properties
+############################
+
+# Object Property: :beingGEH (:beingGEH)
+
+TransitiveObjectProperty(:beingGEH)
+ReflexiveObjectProperty(:beingGEH)
+
+
 
 
 ############################
