@@ -12,6 +12,7 @@ Declaration(Class(:Algorithm))
 Declaration(Class(:another))
 Declaration(Class(:badabim))
 Declaration(Class(:subclass))
+Declaration(Class(:subsubclass))
 Declaration(DataProperty(:maxObjectivesAlgorithmIsAbleToDealWith))
 Declaration(DataProperty(:minObjectivesAlgorithmIsAbleToDealWith))
 Declaration(NamedIndividual(:nsgaii))
@@ -30,6 +31,10 @@ SubClassOf(:another :Algorithm)
 # Class: :subclass (:subclass)
 
 SubClassOf(:subclass :Algorithm)
+
+# Class: :subsubclass (:subsubclass)
+
+SubClassOf(:subsubclass :subclass)
 
 
 ############################
@@ -56,4 +61,3 @@ DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :smsemoa "2"^^xsd:
 
 
 )
-
