@@ -14,7 +14,6 @@ Declaration(DataProperty(:minObjectivesAlgorithmIsAbleToDealWith))
 Declaration(NamedIndividual(:nsgaii))
 Declaration(NamedIndividual(:nsgaiii))
 Declaration(NamedIndividual(:smsemoa))
-Declaration(ObjectProperty(:Friends))
 
 
 
@@ -37,7 +36,6 @@ DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :nsgaiii "3"^^xsd:
 # Individual: :smsemoa (:smsemoa)
 
 ClassAssertion(:Algorithm :smsemoa)
-ObjectPropertyAssertion(:Friends :smsemoa :nsgaii)
 DataPropertyAssertion(:maxObjectivesAlgorithmIsAbleToDealWith :smsemoa "3"^^xsd:integer)
 DataPropertyAssertion(:minObjectivesAlgorithmIsAbleToDealWith :smsemoa "2"^^xsd:integer)
 
